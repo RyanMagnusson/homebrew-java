@@ -2,9 +2,9 @@ require "formula"
 
 class MysqlConnectorJava < Formula
   homepage "http://dev.mysql.com/downloads/connector/j/"
-  version "8.0.16"
   url "http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-#{version}.tar.gz"
-  sha256 "4d261f669f685cd9e1eb5683d03019466cb9e59a8b873efce1b623254ea29231"
+  version "8.0.16"
+  sha256 "de7d7f8ce9d777c2a6c7c47695d87bfd635e621f9142467a5e56538fcaf4644a"
 
   def install
     prefix.install_metafiles
