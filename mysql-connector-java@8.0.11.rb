@@ -1,5 +1,5 @@
 require "formula"
-require "./mysql-connector-java"
+require_relative "mysql-connector-java"
 
 class MysqlConnectorJavaAT8011 < MysqlConnectorJava
   version "8.0.11"
