@@ -23,5 +23,5 @@ In this case Maven is quite a hard choice to manage these libraries.
 
 ## Install ##
 
-* `brew tap gbeine/homebrew-java`
+* `brew tap RyanMagnusson/homebrew-java`
 * `brew install mysql-connector-java`
